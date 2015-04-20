@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- 顶部栏fragment -->
+        <fragment
+            android:id="@+id/header"
+            android:name="com.rangers.soccergo.fragments.HeaderFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/fragment_header" />
+        <!-- 主fragment -->
+        <FrameLayout
+            android:id="@+id/main_fragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/header" />
+    </RelativeLayout>
+    <!-- 底部栏 -->
+    <fragment
+        android:name="com.rangers.soccergo.fragments.FooterFragment"
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_footer" />
+    <!-- 遮罩层 -->
+    <LinearLayout
+        android:id="@+id/shade_layer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:alpha="0.8"
+        android:visibility="gone"
+        android:orientation="vertical" />
+</FrameLayout>
+

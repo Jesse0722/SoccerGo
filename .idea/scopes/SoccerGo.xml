@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="SoccerGo" pattern="src[app]:com.rangers.soccergo.fragments.*||src[app]:com.rangers.soccergo.entities.*||src[app]:com.rangers.soccergo.helpers.*||src[app]:com.rangers.soccergo.utils.*||src[app]:com.rangers.soccergo.uis.*||src[app]:com.rangers.soccergo.dao.*||src[app]:com.rangers.soccergo.activities.*" />
+</component>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/flipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+        <!-- 创建小象页面 -->
+        <LinearLayout
+            android:id="@+id/elephant_creation_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建一只小大象"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/elephant_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="填写小象名称" />
+
+            <EditText
+                android:id="@+id/elephant_weight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal"
+                android:hint="填写小象体重" />
+
+            <Button
+                android:id="@+id/elephant_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="创建" />
+        </LinearLayout>
+        <!-- 添加水果页面 -->
+        <LinearLayout
+            android:id="@+id/fruit_add_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="给小象添加爱吃的水果"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/fruit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="填写水果名称" />
+
+            <Button
+                android:id="@+id/fruit_submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="添加" />
+
+            <Button
+                android:id="@+id/info_show_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/info_page"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看小象信息"
+                android:textSize="24sp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小象名称:" />
+
+                <TextView
+                    android:id="@+id/show_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小象体重:" />
+
+                <TextView
+                    android:id="@+id/show_weight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="小象喜欢吃的水果:" />
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回" />
+        </LinearLayout>
+    </ViewFlipper>
+
+</LinearLayout>

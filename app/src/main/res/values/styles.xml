@@ -5,4 +5,59 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <!-- Sliding Menu -->
+    <style name="sliding_menu">
+        <item name="android:paddingLeft">@dimen/sliding_padding</item>
+        <item name="android:paddingStart">@dimen/sliding_padding</item>
+        <item name="android:paddingRight">@dimen/sliding_padding</item>
+        <item name="android:paddingEnd">@dimen/sliding_padding</item>
+        <item name="android:paddingTop">@dimen/sliding_paddingTop</item>
+        <item name="android:paddingBottom">@dimen/sliding_paddingBottom</item>
+        <item name="android:background">#ff28ee29</item>
+    </style>
+
+    <!--  登陆注册部分 -->
+    <style name="log_reg_container">
+        <item name="android:paddingLeft">@dimen/small_dist</item>
+        <item name="android:paddingRight">@dimen/small_dist</item>
+        <item name="android:paddingTop">@dimen/small_dist</item>
+        <item name="android:background">@drawable/log_reg_bkg1</item>
+    </style>
+
+    <style name="login_logo">
+        <item name="android:layout_height">180dp</item>
+        <item name="android:layout_width">180dp</item>
+        <item name="android:paddingLeft">@dimen/small_dist</item>
+        <item name="android:paddingRight">@dimen/small_dist</item>
+        <item name="android:paddingTop">@dimen/small_dist</item>
+        <item name="android:paddingBottom">@dimen/small_dist</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:src">@drawable/logo_large</item>
+    </style>
+
+    <style name="log_reg_form_container">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="log_reg_form">
+        <item name="android:padding">@dimen/mini_dist</item>
+        <item name="android:layout_marginBottom">@dimen/small_dist</item>
+        <item name="android:ellipsize">start</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColorHint">@color/common_dark</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">#80ffffff</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="login_options_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+
 </resources>

@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/ThirdParty/SlidingMenu" charset="GBK" />
     <file url="file://$PROJECT_DIR$/app/build.gradle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/androidTest/java/com/rangers/soccergo/ApplicationTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/config" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/config/footer_items.json" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/assets/config/sliding_items.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/App.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/entities/ConfigableMenuItem.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/entities/Team.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/helpers/LeanCloudHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/uis/ViewHolder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/utils/ACache.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/rangers/soccergo/utils/Validator.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/sliding_shadow.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/footer_icon_challenge.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/footer_icon_challenge_actived.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/log_reg_bkg.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/log_reg_bkg1.png" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/logo_large.png" charset="GBK" />
     <file url="file://$PROJECT_DIR$/build.gradle" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/settings.gradle" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

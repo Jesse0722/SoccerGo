@@ -1,2 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <dimen name="mini_dist">5dp</dimen>
+    <dimen name="small_dist">15dp</dimen>
+    <dimen name="middle_dist">30dp</dimen>
+    <dimen name="large_dist">50dp</dimen>
+
+    <!-- SlidingMenu-->
+    <dimen name="sliding_behindOffset">60dp</dimen>
+    <dimen name="sliding_padding">20dp</dimen>
+    <dimen name="sliding_paddingTop">40dp</dimen>
+    <dimen name="sliding_paddingBottom">5dp</dimen>
+    <dimen name="sliding_username_fontSize">15sp</dimen>
+    <dimen name="sliding_otherinfo_fontSize">12sp</dimen>
+    <dimen name="sliding_avatar_size">60dp</dimen>
+    <dimen name="sliding_icon_size">30dp</dimen>
+    <dimen name="sliding_marginStart">16dp</dimen>
+    <dimen name="sliding_list_padding">10dp</dimen>
+    <dimen name="sliding_list_iconSize">35dp</dimen>
+    <dimen name="sliding_list_fontSize">18sp</dimen>
+    <dimen name="sliding_list_whitspace">10dp</dimen>
+    <dimen name="sliding_footer_fontSize">12sp</dimen>
+    <dimen name="sliding_footer_iconSize">30dp</dimen>
+    <dimen name="sliding_footer_padding">5dp</dimen>
+
+    <!-- Footer -->
+    <dimen name="footer_icon_size">45dp</dimen>
+    <dimen name="footer_icon_padding">5dp</dimen>
+</resources>

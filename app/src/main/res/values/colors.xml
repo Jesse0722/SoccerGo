@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="common_dark">#3ebf90</color>
+    <color name="default_font">#ffffff</color>
+    <color name="default_disabled_font">#afafaf</color>
 
 </resources>

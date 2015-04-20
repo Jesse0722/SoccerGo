@@ -10,7 +10,6 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.READ_LOGS" />
@@ -18,18 +17,23 @@
     <application
         android:allowBackup="true"
         android:label="@string/app_name"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/icon_launcher"
         android:theme="@style/AppTheme"
-        tools:replace="android:icon"
-        android:name=".App">
+        android:name=".App"
+        tools:replace="android:icon,android:label">
         <!-- 启动Activity-->
-        <activity android:name=".activities.LaunchActivity">
+        <activity
+            android:name=".activities.LaunchActivity"
+            android:label="@string/app_name">
             <intent-filter>
-                <action android:name="ANDROID.INTENT.ACTION.MAIN" />
-                <category android:name="ANDROID.INTENT.CATEGORY.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".activities.LogRegActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.SettingsActivity" />
+        <activity android:name=".activities.ElephantActivity" />
     </application>
 
 </manifest>

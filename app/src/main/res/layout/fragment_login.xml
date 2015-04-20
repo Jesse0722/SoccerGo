@@ -1,7 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/log_reg_container"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-</LinearLayout>
+    <ImageView
+        android:id="@+id/logo"
+        style="@style/login_logo" />
+
+    <LinearLayout
+        android:id="@+id/log_reg_form_container"
+        android:layout_below="@id/logo"
+        style="@style/log_reg_form_container">
+
+        <EditText
+            android:id="@+id/username"
+            style="@style/log_reg_form"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/log_reg_icon_user"
+            android:drawableStart="@drawable/log_reg_icon_user"
+            android:inputType="phone"
+            android:hint="@string/login_hint_phone" />
+
+        <EditText
+            android:id="@+id/password"
+            style="@style/log_reg_form"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:drawableLeft="@drawable/log_reg_icon_password"
+            android:drawableStart="@drawable/log_reg_icon_password"
+            android:inputType="textPassword"
+            android:hint="@string/login_hint_pwd" />
+
+        <ImageView
+            android:id="@+id/submit_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:src="@drawable/login_btn_submit"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/login_options"
+        android:layout_below="@id/log_reg_form_container"
+        android:layout_marginTop="@dimen/mini_dist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/login_forget_pwd"
+            style="@style/login_options_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:text="@string/login_forget_pwd" />
+
+        <TextView
+            android:id="@+id/login_to_reg"
+            style="@style/login_options_text"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:text="@string/register" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/company"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            android:text="@string/company" />
+
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"
+            android:text="@string/copyright" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/other_login_title"
+        android:layout_above="@id/footer"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/other_login"
+        android:textSize="16sp"
+        android:textColor="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/login_apps_container"
+        android:layout_above="@id/other_login_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/app_weixin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/app_weixin" />
+
+        <ImageView
+            android:id="@+id/app_QQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/app_qq" />
+
+        <ImageView
+            android:id="@+id/app_weibo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/app_weibo" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ThirdParty/SlidingMenu/SlidingMenu.iml" filepath="$PROJECT_DIR$/ThirdParty/SlidingMenu/SlidingMenu.iml" />
       <module fileurl="file://$PROJECT_DIR$/SoccerGo.iml" filepath="$PROJECT_DIR$/SoccerGo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThirdParty/ThirdParty.iml" filepath="$PROJECT_DIR$/ThirdParty/ThirdParty.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

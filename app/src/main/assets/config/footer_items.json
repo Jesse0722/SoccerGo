@@ -1,0 +1,22 @@
+[
+  {
+    "name": "footer_competition",
+    "icon": "footer_icon_competition",
+    "fragment": "com.rangers.soccergo.fragments.PrivateMatchFragment"
+  },
+  {
+    "name": "footer_message",
+    "icon": "footer_icon_message",
+    "fragment": "com.rangers.soccergo.fragments.MessageListFragment"
+  },
+  {
+    "name": "footer_discover",
+    "icon": "footer_icon_discover",
+    "fragment": "com.rangers.soccergo.fragments.DiscoverFragment"
+  },
+  {
+    "name": "footer_challenge",
+    "icon": "footer_icon_challenge",
+    "fragment": "com.rangers.soccergo.fragments.ChallengeFragment"
+  }
+]

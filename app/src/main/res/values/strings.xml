@@ -1,3 +1,44 @@
 <resources>
     <string name="app_name">SoccerGo</string>
+    <!-- 公司信息-->
+    <string name="company">XXX公司</string>
+    <string name="copyright">Copyright © 2015 xxxx. All Rights Reserved</string>
+    <!--默认-->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="settings">设置</string>
+    <string name="skin">皮肤</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <!--登陆部分-->
+    <string name="login_divide_tip">第三方登录</string>
+    <string name="login_hint_phone">请输入手机号</string>
+    <string name="login_to_reg">注册账号</string>
+    <string name="login_hint_pwd">请输入密码</string>
+    <string name="login_hint_repwd">请再次输入密码</string>
+    <string name="login_forget_pwd">忘记密码</string>
+    <string name="username_null">用户名不能为空</string>
+    <string name="password_null">密码不能为空</string>
+    <string name="login_error">用户名或密码错误</string>
+    <string name="app_weixin_login">微信登录</string>
+    <string name="app_weibo_login">微博登录</string>
+    <string name="app_qq_login">QQ登录</string>
+    <string name="other_login">其他方式登录</string>
+    <!--  注册部分 -->
+    <string name="register_hint_auth_code">请填写验证码</string>
+    <string name="register_to_login">已有账号?</string>
+    <string name="register_phone_error">手机格式不正确</string>
+    <string name="register_phone_exist">该手机已被注册</string>
+    <string name="register_ac_get">点击获取</string>
+    <string name="register_ac_reget">重新获取</string>
+    <string name="register_ac_wait">秒后重发</string>
+    <string name="register_ac_error">验证码错误</string>
+    <string name="register_pwd_hint">密码最少长6位，由数字或字符组成</string>
+    <string name="register_pwd_error">密码格式错误</string>
+    <string name="register_pwd_mismatch">两次输入密码不一致</string>
+    <!--Sliding 菜单项-->
+    <string name="sliding_list_settings">应用设置</string>
+    <string name="sliding_list_advice">建议反馈</string>
+
 </resources>
